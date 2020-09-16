@@ -6,8 +6,6 @@ import bed3 from '../../assets/images/bed3.JPG';
 import bed4 from '../../assets/images/bed4.JPG';
 import bed5 from '../../assets/images/bed5.JPG';
 
-import Button from '../Button/Button';
-
 import './Header.css';
 
 
