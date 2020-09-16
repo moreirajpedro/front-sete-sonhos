@@ -1,0 +1,46 @@
+:root {
+    font-size: 65%;
+
+    --text-color: #454545;
+    --background-color: #eee;
+    --image: #a0ddff;
+    --box-background: #114d6f;
+    --text: #38adef;
+
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+html,
+body,
+textarea,
+input {
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+.section-separator {
+    margin-top: 3.6rem;
+}
+
+.section-break-separator {
+    margin-top: 2.4rem;
+}
+
+.section-item-item-separator {
+    margin-top: 1.5rem;
+}
+
+.section-title-1 {
+    color: var(--text-color);
+    font: 3rem medium Roboto;
+}

@@ -1,0 +1,11 @@
+.button {
+    background-color: var(--box-background);
+    border: none;
+    border-radius: 3.6rem;
+    height: 2.4rem;
+    width: 90vw;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--background-color);
+    font-size: 1.4rem;
+}

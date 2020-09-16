@@ -1,0 +1,46 @@
+.bed-simulator-container {
+    width: 80vw;
+    height: 13.9rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bed-simulator-title {
+    font-family: Roboto;
+    font-size: 1.8rem;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputs-container > input {
+    height: 3rem;
+    width: 37vw;
+    border-radius: 0.8rem;
+    background-color: var(--image);
+    border: none;
+}
+
+.inputs-container > input::placeholder {
+    font-family: Roboto;
+    font-weight: lighter;
+    padding-left: 1rem;
+    color: var(--box-background);
+}
+
+.bed-simulator-container > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    padding: 1rem;
+    background-color: var(--box-background);
+    color: var(--background-color);
+    font-size: 1.8rem;
+    font-family: Roboto;
+    border-radius: 3.6rem;
+    border: none;
+}

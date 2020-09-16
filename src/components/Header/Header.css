@@ -1,0 +1,49 @@
+.header-container {
+    width: 100vw;
+    height: 94vh;
+    max-height: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: var(--image);
+    border-radius: 0 0 2.4rem 2.4rem;
+    padding: 2rem;
+}
+
+.secondary-text, .primary-text {
+    color: var(--box-background);
+    font-family: Roboto;
+}
+
+.secondary-text {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.primary-text {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.primary-text .important-text {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.scroll-down-button {
+    align-self: center;
+    font-size: 3rem;
+    color: var(--background-color);
+}
+
+.image-carousel {
+    max-width: 99%;
+    max-height: 99%;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+
+.fa-chevron-down {
+    color: var(--box-background);
+}

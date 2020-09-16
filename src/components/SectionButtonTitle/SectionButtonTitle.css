@@ -1,0 +1,19 @@
+.section-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 90vw;
+    height: 6.4rem;
+    border-radius: 2.4rem;
+    background-color: var(--text);
+}
+
+.section-title-2 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Roboto;
+    color: var(--background-color);
+}

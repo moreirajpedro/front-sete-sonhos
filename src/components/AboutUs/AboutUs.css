@@ -1,0 +1,22 @@
+#about-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-us-text-container {
+    width: 90vw;
+    height: auto;
+    background-color: var(--box-background);
+    border-radius: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.4rem;
+}
+
+.about-us-text {
+    font: 2.4rem Roboto;
+    color: var(--background-color);
+}

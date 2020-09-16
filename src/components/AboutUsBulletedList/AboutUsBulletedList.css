@@ -1,0 +1,46 @@
+.bulleted-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    margin-left: 4rem;
+    margin-right: auto;
+}
+
+.check-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    resize: both;
+    margin-right: 1.6rem;
+    padding: 1rem;
+    height: auto;
+    width: auto;
+    border-radius: 6.4rem;
+    background-color: var(--image);
+}
+
+.fa-check {
+    font-size: 3rem;
+    filter:drop-shadow(0.1rem 0.2rem 0.4rem var(--text-color))
+}
+
+.item-text-wrapper {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 26rem;
+}
+
+.item-title {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.item-description {
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
