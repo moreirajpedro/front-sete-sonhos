@@ -26,9 +26,7 @@ function Header() {
         <header className='header-container'>
             <p className='secondary-text'>Revendedor Eurosono</p>
             <h1 className='primary-text'>Confiança e conforto de uma marca com mais de <span className='important-text'>70 anos.</span></h1>
-            <Button
-                msg='Faça seu pedido'
-            />
+            <button type='button'>Faça seu pedido</button>
             <figure className="carousel-container">
                 <img src={bed} className='image-carousel' alt="Cama Eurosono" />
             </figure>

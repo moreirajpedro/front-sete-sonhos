@@ -4,7 +4,7 @@ import './Button.css';
 
 function Button({ msg }) {
     return (
-        <button className="button" type='button'>{msg}</button>
+        <button className="button section-item-item-separator" type='button'>{msg}</button>
     )
 }
 

@@ -1,0 +1,14 @@
+#testemonials-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testemonials-container {
+    width: 90vw;
+    height: 64rem;
+    background-color: var(--box-background);
+    border-radius: 2.4rem;
+    margin-bottom: 2.1rem;
+}

@@ -42,5 +42,7 @@ input {
 
 .section-title-1 {
     color: var(--text-color);
-    font: 3rem medium Roboto;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Roboto;
 }
