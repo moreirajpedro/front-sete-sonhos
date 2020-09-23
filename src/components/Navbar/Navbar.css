@@ -1,16 +1,16 @@
 .nav-container {
     width: 100vw;
     height: 4.5rem;
-    background-color: var(--box-background);
+    background-color: var(--text);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 1.6rem 0rem 1.6rem;
+    padding-right: 1rem;
     z-index: 999;
 }
 
 .logo-img {
-    color: var(--background-color);
+    max-width: 5rem;
 }
 
 .menu-icon {
@@ -27,7 +27,7 @@
     position: absolute;
     width: 100%;
     top: 4.2rem;
-    background: var(--box-background);
+    background: var(--text);
     left: 0;
     border-radius: 0 0 2.4rem 2.4rem;
 }
@@ -51,7 +51,7 @@
     width: 90vw;
     margin-top: 0.8rem;
     margin-bottom: 0.5rem;
-    color: var(--box-background);
+    color: var(--text-color);
     font-size: 1.4rem;
 }
 

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import logoImg from '../../assets/images/logo.PNG';
+
 import './Navbar.css';
 
 function Navbar() {
@@ -10,7 +12,7 @@ function Navbar() {
 
     return (
         <nav className='nav-container'>
-            <p className="logo-img">Logo</p>
+            <img src={logoImg} alt="Logo" className="logo-img" />
             <div className="menu-icon" onClick={handleMenuIconClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>

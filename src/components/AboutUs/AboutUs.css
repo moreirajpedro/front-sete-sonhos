@@ -20,3 +20,26 @@
     font: 2.4rem Roboto;
     color: var(--background-color);
 }
+
+.bulleted-list {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+@media screen and (min-width: 700px) {
+    .bulleted-list {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            'first second'
+        ;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .bulleted-list {
+        display: flex;
+        flex-direction: row;
+    }
+}

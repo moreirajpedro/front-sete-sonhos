@@ -9,6 +9,13 @@
     background-color: var(--image);
     border-radius: 0 0 2.4rem 2.4rem;
     padding: 2rem;
+
+
+    background-image: url(../../assets/images/bed1.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .header-container > button {
@@ -49,13 +56,30 @@
     color: var(--background-color);
 }
 
+.carousel-container {
+    width: auto;
+    height: auto;
+    align-self: center;
+}
+
 .image-carousel {
-    max-width: 99%;
-    max-height: 99%;
+    max-width: 42rem;
     border-radius: 5rem;
     margin-top: 2rem;
 }
 
 .fa-chevron-down {
     color: var(--box-background);
+}
+
+@media screen and (min-width: 700px) {
+    .image-carousel {
+        max-width: 60rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .header-container {
+        align-items: center;
+    }
 }
