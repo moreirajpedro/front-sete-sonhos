@@ -25,9 +25,6 @@ function Navbar() {
                         <a href="#beds-section" onClick={handleMenuItemClick}>Conferir camas</a>
                     </li>
                     <li className='nav-item'>
-                        <a href="#bed-simulator" onClick={handleMenuItemClick}>Simular minha cama ideal</a>
-                    </li>
-                    <li className='nav-item'>
                         <a href="#testemonials-section" onClick={handleMenuItemClick}>Testemunho dos clientes</a>
                     </li>
                     <button className="button-navbar" type='button' onClick={handleMenuItemClick}>Faça seu pedido</button>

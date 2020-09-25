@@ -17,8 +17,10 @@
 }
 
 .about-us-text {
-    font: 2.4rem Roboto;
+    font-size: 2rem;
+    font-family: Roboto;
     color: var(--background-color);
+    font-weight: lighter;
 }
 
 .bulleted-list {

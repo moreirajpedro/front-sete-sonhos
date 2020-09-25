@@ -10,20 +10,10 @@ import './Header.css';
 
 
 function Header() {
-    const BEDS = [
-        bed1,
-        bed2,
-        bed3,
-        bed4,
-        bed5
-    ]
-
-    const [bed, setBed] = useState(BEDS[0]);
-
     return (
         <header className='header-container' >
             <p className='secondary-text'>Revendedor Eurosono</p>
-            <h1 className='primary-text'>Confiança e conforto de uma marca com mais de <span className='important-text'>70 anos.</span></h1>
+            <h1 className='primary-text'>Confiança e conforto de uma marca com mais de <span className='important-text'>60 anos.</span></h1>
             <button type='button'>Faça seu pedido</button>
             {/* <figure className="carousel-container">
                 <img src={bed} className='image-carousel' alt="Cama Eurosono" />

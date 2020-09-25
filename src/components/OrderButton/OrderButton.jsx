@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './Button.css';
+import './OrderButton.css';
 
-function Button({ msg }) {
+function OrderButton({ msg }) {
     return (
         <button className="button section-item-item-separator" type='button'>{msg}</button>
     )
 }
 
-export default Button;
+export default OrderButton;

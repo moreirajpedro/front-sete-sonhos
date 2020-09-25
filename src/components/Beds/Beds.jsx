@@ -17,17 +17,12 @@ function Beds() {
             />
             <Bed
                 bedCode={1}
-                separator='section-item-item-separator'
+                separator='section-break-separator'
             />
             <Bed
                 bedCode={2}
-                separator='section-item-item-separator'
+                separator='section-break-separator'
             />
-            <Bed
-                bedCode={3}
-                separator='section-item-item-separator'
-            />
-            <BedSimulator />
         </section>
     )
 }

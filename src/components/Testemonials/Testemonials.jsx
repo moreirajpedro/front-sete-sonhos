@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from '../Button/Button';
+import OrderButton from '../OrderButton/OrderButton';
 import Testemonial from '../Testemonial/Testemonial';
 
 import './Testemonials.css';
@@ -19,10 +19,7 @@ function Testemonials() {
                 />
             </div>
 
-            <Button
-                msg='Simular cama ideal'
-            />
-            <Button
+            <OrderButton
                 msg='Fazer seu pedido'
             />
         </section>

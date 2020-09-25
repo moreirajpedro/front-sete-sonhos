@@ -1,7 +1,7 @@
 .testemonial-container {
     width: 27rem;
     background-color: var(--background-color);
-    height: 50.8rem;
+    height: 56rem;
     border-radius: 2.4rem;
     margin-top: 4.8rem;
     margin-left: 3.2rem;
@@ -65,4 +65,5 @@
     color: var(--background-color);
     font-family: Roboto;
     font-weight: lighter;
+    font-size: 1.2rem;
 }

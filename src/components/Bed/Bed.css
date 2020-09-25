@@ -1,37 +1,31 @@
 .bed-container {
     margin-right: auto;
     margin-left: auto;
-    max-width: 85vw;
+    max-width: 75vw;
 }
 
 .bed-title-container {
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
 }
 
-.bed-name {
+.bed-title-container > h1 {
     font-family: Roboto;
-    font-size: 2.4rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 500;
     color: var(--text-color);
     margin-right: 1rem;
 }
 
-.bed-title-container > p {
-    font-family: Roboto;
-    font-weight: 200;
-    font-size: 1.8rem;
-    margin-right: 1rem;
-}
-
-.button-small {
+.bed-title-container > button {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 30%;
-    height: 2.4rem;
+    width: 60%;
+    height: 3.6rem;
     background-color: var(--box-background);
     border-radius: 3.6rem;
     border: none;
@@ -46,15 +40,32 @@
     font-family: Roboto;
     font-size: 1.4rem;
     font-weight: 200;
+    margin-top: 1rem;
 }
 
 .bed-image {
     display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: 80vw;
-    max-height: 22rem;
+    justify-content: space-between;
     flex-direction: column;
+    max-width: 80vw;
+}
+
+.bed-image > Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: auto;
+    width: auto;
+}
+
+.bed-image > Button > img {
+    max-width: 30rem;
+    border: none;
 }
 
 .click-image-text {
@@ -62,4 +73,71 @@
     font-size: 1.4rem;
     font-weight: 200;
     opacity: 0.7;
+    text-align: center;
+}
+
+.bed-data-container {
+    margin-left: 1.2rem;
+}
+
+.model-data-container > li {
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.bed-data-container > h2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.bed-size-wrapper {
+    margin-bottom: 1.5rem;
+}
+.bed-size-wrapper > h3 {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.bed-size-wrapper > h4 {
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+.orderButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 3.5rem;
+    background-color: var(--box-background);
+    color: var(--background-color);
+    font-size: 1.6rem;
+    font-family: Roboto;
+    font-weight: lighter;
+    border-radius: 3.6rem;
+    border: none;
+}
+
+.orderButton:hover {
+    text-decoration: none;
+    color: var(--background-color);
+    
+}
+@media screen and (min-width: 1100px) {
+    .bed-image > Button > img {
+        max-width: 63rem;
+    }
+
+    .orderButton {
+        width: 43rem;
+    }
+
+    .orderButton:hover {
+        font-size: 1.8rem;
+    }
 }

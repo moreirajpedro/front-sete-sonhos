@@ -25,7 +25,7 @@ html,
 body,
 textarea,
 input {
-    background: var(--background-color);
+    background: #fff;
     color: var(--text-color);
 }
 

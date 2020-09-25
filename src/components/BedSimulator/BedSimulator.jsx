@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../Button/Button';
+import OrderButton from '../OrderButton/OrderButton';
 import './BedSimulator.css';
 
 function BedSimulator() {
@@ -12,7 +12,7 @@ function BedSimulator() {
                 <input type="text" placeholder='Tamanho (em m)' />
                 <input type="text" placeholder='Peso (em kg)' />
             </div>
-            <Button msg='Minha cama ideal' />
+            <OrderButton msg='Minha cama ideal' />
         </div>
     )
 }
