@@ -75,7 +75,7 @@ function Bed({ bedCode, separator }) {
                             <h3>{`Queen: ${typeQueen.size}`}</h3>
                             <h4>A Vista: <strong>{typePrices.Queen["À vista"]}</strong></h4>
                             <h4>Parcelado em até 12x: <strong> {typePrices.Queen["Até 12x"]}</strong></h4>
-                            <a href="" className="orderButton">Faça seu pedido</a>
+                            <a href="" className="orderButton">Peça sua cama</a>
                         </div>
                     </div>
                 </ModalBody>
