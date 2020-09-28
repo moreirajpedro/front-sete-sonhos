@@ -17,7 +17,9 @@ function Bed({ bedCode, separator }) {
 
     const IMAGES = [elegance, harmony, romance2]
     const { model, modelData, typePrices, description } = BedData[bedCode]
-    const { "Casal Padrão": typeCP, King: typeKing, Queen: typeQueen } = BedTypeData;
+
+    const typePricesData = Object.entries(typePrices);
+    const bedSizeData = Object.entries(BedTypeData);
 
     const toggle = () => setModal(!modal);
 
@@ -56,27 +58,14 @@ function Bed({ bedCode, separator }) {
                             {modelData.map(data => <li>{data}</li>)}
                         </div>
                         <h2 className='section-title section-item-item-separator'>Valores:</h2>
-                        {/* Casal Padrão */}
-                        <div className="bed-size-wrapper">
-                            <h3>{`Casal Padrão: ${typeCP.size}`}</h3>
-                            <h4>A Vista: <strong>{typePrices["Casal Padrão"]["À vista"]}</strong></h4>
-                            <h4>Parcelado em até 12x: <strong>{typePrices["Casal Padrão"]["Até 12x"]}</strong></h4>
-                            <a href="" className="orderButton">Faça seu pedido</a>
-                        </div>
-                        {/* King */}
-                        <div className="bed-size-wrapper">
-                            <h3>{`King: ${typeKing.size}`}</h3>
-                            <h4>A Vista: <strong>{typePrices.King["À vista"]}</strong></h4>
-                            <h4>Parcelado em até 12x: <strong> {typePrices.King["Até 12x"]}</strong></h4>
-                            <a href="" className="orderButton">Faça seu pedido</a>
-                        </div>
-                        {/* Queen */}
-                        <div className="bed-size-wrapper">
-                            <h3>{`Queen: ${typeQueen.size}`}</h3>
-                            <h4>A Vista: <strong>{typePrices.Queen["À vista"]}</strong></h4>
-                            <h4>Parcelado em até 12x: <strong> {typePrices.Queen["Até 12x"]}</strong></h4>
-                            <a href="" className="orderButton">Peça sua cama</a>
-                        </div>
+                            {typePricesData.map((data) => 
+                                <div className="bed-size-wrapper">
+                                    <h3>{data[0]}: {bedSizeData.map(sizeInfo => data[0] == sizeInfo[0] ? sizeInfo[1] : null)}</h3>
+                                    <h4>À Vista: <strong>R${data[1][0]}</strong></h4>
+                                    <h4>Parcelado: <strong>R${data[1][1]}</strong></h4>
+                                    <a href="" className='orderButton'>Faça seu pedido</a>
+                                </div>
+                            )}
                     </div>
                 </ModalBody>
             </Modal>

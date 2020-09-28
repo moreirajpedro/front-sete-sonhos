@@ -1,11 +1,7 @@
 export const BedTypeData = {
-    'Casal Padrão': {
-        'size': '138x188',
-    },
-    'Queen': {
-        'size': '158x198',
-    },
-    'King': {
-        'size': '193x203',
-    }
+    'Solteiro': '088x188cm',
+    'Solteirao': '110x188cm',
+    'Casal Padrão': '138x188cm',
+    'Queen': '158x198cm',
+    'King': '193x203cm' 
 }
