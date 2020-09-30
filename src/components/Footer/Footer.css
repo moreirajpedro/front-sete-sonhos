@@ -4,12 +4,16 @@
     padding: 2.4rem;
     background-color: var(--image);
 }
-
-.mail-list-register > p {
+.mail-list-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mail-input-label {
     font-family: Roboto;
     font-size: 1.8rem;
     color: var(--box-background);
-    text-align: center;
 }
 
 .mail-list-register > form {
