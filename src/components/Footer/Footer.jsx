@@ -12,7 +12,7 @@ function Footer() {
 
         let data = email;
 
-        axios.post('/send-email', data)
+        axios.post('api-serverless-sete-sonhos.vercel.app', data)
             .then(res => {
                 setEmail('');
             })
