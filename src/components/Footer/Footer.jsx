@@ -6,15 +6,17 @@ import './Footer.css';
 
 function Footer() {
     const [email, setEmail] = useState('')
+    const [name, setName] = useState('')
 
     const formSubmit = (e) => {
         e.preventDefault();
 
-        let data = email;
+        let data = [email, name];
 
-        axios.post('api-serverless-sete-sonhos.vercel.app', data)
+        axios.post('https://setesonhoslandingpage.vercel.app/api/', data)
             .then(res => {
                 setEmail('');
+                setName('');
             })
             .catch(() => {
                 console.log('Message not sent');
@@ -26,6 +28,15 @@ function Footer() {
             <div className="mail-list-register">
                 <label className='mail-input-label' htmlFor='mail-input'>Quer ficar por dentro de todas as nossas promoções? Cadastre o seu melhor email abaixo:</label>
                 <form onSubmit={(e) => formSubmit(e)}>
+                    <input
+                        onChange={(e) => setName(e.target.value)}
+                        name='name'
+                        type='text'
+                        className='mail-input section-item-item-separator'
+                        placeholder='Insira aqui o seu melhor email'
+                        required
+                        value={name}
+                    />
                     <input
                         onChange={(e) => setEmail(e.target.value)}
                         name='email'
