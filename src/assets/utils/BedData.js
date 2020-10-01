@@ -113,11 +113,21 @@ export const BedData = [
         'modelData': [
         ],
         'typePrices': {
+            'Solteirao': [
+                '1.465,16',
+                '1.758,19'
+            ],
             'Casal Padrão': [
+                '1.587,64',
+                '1.905,16'
             ],
             'Queen': [
+                '1.933,88',
+                '2.320,65'
             ],
             'King': [
+                '2.414,0',
+                '2.896,80'
             ]
         },
         'description': 'Colchão com camada de EUROTOP de 28cm, suporta 120 kg/m2. Ideal para quem busca uma cama mais firme com um melhor custo benefício.',
@@ -128,10 +138,16 @@ export const BedData = [
         ],
         'typePrices': {
             'Casal Padrão': [
+                '1.809,48',
+                '2.177,37'
             ],
             'Queen': [
+                '2.205,96',
+                '2.647,15'
             ],
             'King': [
+                '2.658,22',
+                '2.658,22'
             ]
         },
         'description': 'Colchão com camada de EUROTOP de 32cm. Possui tecido Tampo Bordado em malha e Espuma Soft D - 20 kg/m3. Ideal para quem busca uma cama macia.',

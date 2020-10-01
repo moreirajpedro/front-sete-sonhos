@@ -7,15 +7,23 @@ import { BedTypeData } from '../../assets/utils/BedTypeData';
 
 import elegance from '../../assets/images/elegance.JPG';
 import harmony from '../../assets/images/harmony.JPG';
-import romance from '../../assets/images/romance.JPG';
 import romance2 from '../../assets/images/romance2.JPG';
+import celebration from '../../assets/images/celebration.png';
 
 import './Bed.css';
 
 function Bed({ bedCode, separator }) {
     const [modal, setModal] = useState(false);
 
-    const IMAGES = [elegance, harmony, romance2]
+    const IMAGES = [
+        '', // Venezza
+        elegance, 
+        harmony, 
+        romance2,
+        '', // Vienna
+        celebration
+    ]
+    
     const { model, modelData, typePrices, description } = BedData[bedCode]
 
     const typePricesData = Object.entries(typePrices);
