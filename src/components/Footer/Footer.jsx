@@ -11,9 +11,7 @@ function Footer() {
     const formSubmit = (e) => {
         e.preventDefault();
 
-        let data = [
-            email, name
-        ];
+        let data = [email, name];
 
         axios.post('https://setesonhoslandingpage.vercel.app/api/', data)
             .then(res => {
