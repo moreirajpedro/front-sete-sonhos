@@ -12,8 +12,8 @@ module.exports = async (req, res) => {
         .set('Content-Type', 'application/json;charset=utf-8')
         .set('Authorization', 'Basic ' + new Buffer('any:' + apiKey).toString('base64'))
         .send({
-            'name': req.body.name,
-            'email': req.body.email,
+            'name': req.body[1],
+            'email': req.body[0],
             'status': 'subscribed',
         })
         .end(function (err, response) {
