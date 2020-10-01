@@ -10,14 +10,14 @@ module.exports = async (req, res) => {
     request
         .post('https://' + instance + '.api.mailchimp.com/3.0/lists/' + listId + '/members/')
         .set('Content-Type', 'application/json;charset=utf-8')
-        .set('Authorization', 'Basic ' + new Buffer('any:' + apiKey).toString('base64'))
+        .set('Authorization', 'Basic ' + Buffer.alloc('anystring:' + apiKey).toString('base64'))
         .send({
             'name': req.body[1],
             'email': req.body[0],
             'status': 'subscribed',
         })
         .end(function (err, response) {
-            if (response.status < 300 || (response.status === 400 && response.body.title === "Member Exists")) {
+            if (response.status < 300 || (response.status === 400)) {
                 res.send('Signed Up!');
             } else {
                 res.send('Sign Up Failed :(');
