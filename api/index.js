@@ -1,7 +1,7 @@
 var request = require('superagent');
 
 module.exports = async (req, res) => {
-    const listId = 'eff0a16507';
+    const listId = '8430c1bb94';
     const apiKey = '4efd9ef5dcd7c9bda3bae5dc0c9bcbbe-us2';
     const instance = 'us2';
 
