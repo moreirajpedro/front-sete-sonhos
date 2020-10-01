@@ -23,6 +23,18 @@ function Beds() {
                 bedCode={2}
                 separator='section-break-separator'
             />
+            <Bed
+                bedCode={3}
+                separator='section-break-separator'
+            />
+            <Bed
+                bedCode={4}
+                separator='section-break-separator'
+            />
+            <Bed
+                bedCode={5}
+                separator='section-break-separator'
+            />
         </section>
     )
 }

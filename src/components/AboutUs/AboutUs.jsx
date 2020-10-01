@@ -8,7 +8,7 @@ function AboutUs() {
         <section id="about-us-section" className='section-separator'>
             <h1 className='section-title-1'>Quem somos?</h1>
             <div className="about-us-text-container section-item-item-separator">
-                <p className='about-us-text'>Nós somos a Sete Sonhos, o maior E-Commerce de Colchões do Ceará e representantes da Colchões Eurosono, venha conhecer nosso catálogo, COBRIMOS QUALQUER OFERTA! Vendemos colchões, bases, camas box novas, completas e lacradas com frete grátis em Fortaleza, entregando e instalando sua cama com segurança, rapidez, e comodidade!</p>
+                <p className='about-us-text'>Nós somos a Sete Sonhos, o maior E-Commerce de Colchões do Ceará e revendedores autorizados da Colchões Eurosono, venha conhecer nosso catálogo, COBRIMOS QUALQUER OFERTA! Vendemos colchões, bases, camas box novas, completas e lacradas com frete grátis em Fortaleza, entregando e instalando sua cama com segurança, rapidez, e comodidade!</p>
             </div>
             <div className="bulleted-list section-item-item-separator">
                 <AboutUsBulletedList
