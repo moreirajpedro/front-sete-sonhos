@@ -55,13 +55,13 @@ function Footer() {
                 <a href="#testemonials-section">Testemunho dos clientes</a>
             </div>
             <div className="social-container section-break-separator">
-                <a href="">
+                <a href="https://www.instagram.com/setesonhos.com.br/"  target="_blank">
                     <i class="fab fa-instagram" />
                 </a>
                 <a href="">
                     <i class="fab fa-facebook" />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/company/sete-sonhos" target="_blank">
                     <i class="fab fa-linkedin-in" />
                 </a>
             </div>

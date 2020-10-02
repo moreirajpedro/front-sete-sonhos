@@ -2,13 +2,29 @@ export const BedData = [
     {
         'model': 'Conjunto Venezza',
         'modelData': [
+            'Altura 32cm 1 eurotop',
+            'Molejo ensacado 180 molas por metro quadrado encapsulado',
+            'Suporte de 120 Kg por metro quadrado',
+            'Free side',
+            'Tecido Tampo Bordado em malha e espuma Visco Elástico D - 40 Kg/m3',
+            'Bordado Pantográfico (mono agulha)',
+            'Faixa em tecido Sued Azul',
+            'Base 38cm tampo Anti Derrapante com faixa em tecido Sued Azul',
+            'Altura conjunto 70cm',
+            'Pés de PVC fixo 6 X 0 Prata'
         ],
         'typePrices': {
             'Casal Padrão': [
+                '1.839,08',
+                '2.206,90'
             ],
             'Queen': [
+                '2.237,02',
+                '2.684,40'
             ],
             'King': [
+                '2.700,16',
+                '3.240,16'
             ]
         },
         'description': 'Colchão com camada de EUROTOP de 32cm. Possui tecido Tampo Bordado em malha e espuma de visco elástico, trazendo para você o maior conforto. Ideal para quem busca uma cama macia.',
@@ -17,7 +33,7 @@ export const BedData = [
         'model': 'Conjunto Elegance',
         'modelData': [
             'Altura 26cm 1 eurotop',
-            'Molejo ensacado 180 molas por metro encapsulado',
+            'Molejo ensacado 180 molas por metro quadrado encapsulado',
             'Suporte de 120 Kg por metro quadrado',
             'Free side',
             'Tecido Tampo Bordado em malha',
@@ -50,7 +66,7 @@ export const BedData = [
         'model': 'Conjunto Harmony',
         'modelData': [
             'Altura 28cm 1 Pillow Touch',
-            'Molejo ensacado 180 molas por metro encapsulado',
+            'Molejo ensacado 180 molas por metro quadrado encapsulado',
             'Suporte de 120 Kg por metro quadrado',
             'Free Side',
             'Tecido Tampo Bordado em malha',
@@ -83,7 +99,7 @@ export const BedData = [
         'model': 'Conjunto Romance',
         'modelData': [
             'Altura 33cm 1 Eurotop',
-            'Molejo ensacado 180 molas por metro encapsulado',
+            'Molejo ensacado 180 molas por metro quadrado encapsulado',
             'Suporte de 120 Kg por metro quadrado',
             'Free Side',
             'Tecido Tampo Bordado em malha',
@@ -111,6 +127,15 @@ export const BedData = [
     {
         'model': 'Conjunto Vienna',
         'modelData': [
+            'Altura 28cm 1 eurotop',
+            'Molejo ensacado 180 molas por metro quadrado encapsulado',
+            'Suporte de 120 Kg por metro quadrado',
+            'Free side',
+            'Tecido Tampo Bordado em malha e espuma soft D - 20 Kg/m3',
+            'Eurotop e faixa em tecido Sued bordô',
+            'Base 38cm tampo Anti Derrapante com faixa em tecido Sued Bordô',
+            'Altura conjunto 66cm',
+            'Pés de PVC fixo 6 X 0 Prata'
         ],
         'typePrices': {
             'Solteirao': [
@@ -135,6 +160,16 @@ export const BedData = [
     {
         'model': 'Conjunto Celebration',
         'modelData': [
+            'Altura 32cm 1 eurotop',
+            'Molejo ensacado de 180 molas por metro quadrado encapsulado',
+            'Suporte de 120 Kg por metro quadrado',
+            'Free Side',
+            'Tecido Tampo Bordado em malha e espuma soft D - 20 Kg/m3',
+            'Bordado Pantográfico (Mono agulha)',
+            'Faixa em tecido Sued Bege',
+            'Base 38cm tampo Anti Derrapante com faixa em tecido Sued Bege',
+            'Altura conjunto 70cm',
+            'Pés de PVC fixo 6 X 0 Prata'
         ],
         'typePrices': {
             'Casal Padrão': [

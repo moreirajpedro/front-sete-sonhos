@@ -14,7 +14,7 @@ function Landing() {
             <Header />
             <AboutUs />
             <Beds />
-            <Testemonials />
+            {/* <Testemonials /> */}
             <Footer />
         </>
     );

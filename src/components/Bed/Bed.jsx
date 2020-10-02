@@ -9,6 +9,8 @@ import elegance from '../../assets/images/elegance.JPG';
 import harmony from '../../assets/images/harmony.JPG';
 import romance2 from '../../assets/images/romance2.JPG';
 import celebration from '../../assets/images/celebration.png';
+import venezza from '../../assets/images/venezza.jpg';
+import vienna from '../../assets/images/vienna.jpg';
 
 import './Bed.css';
 
@@ -16,11 +18,11 @@ function Bed({ bedCode, separator }) {
     const [modal, setModal] = useState(false);
 
     const IMAGES = [
-        '', // Venezza
+        venezza, 
         elegance, 
         harmony, 
         romance2,
-        '', // Vienna
+        vienna, 
         celebration
     ]
     
