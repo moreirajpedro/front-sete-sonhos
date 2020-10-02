@@ -26,14 +26,14 @@ function Footer() {
     return (
         <footer id='footer-section' className='section-separator'>
             <div className="mail-list-register">
-                <label className='mail-input-label' htmlFor='mail-input'>Quer ficar por dentro de todas as nossas promoções? Cadastre o seu melhor email abaixo:</label>
+                <label className='mail-input-label' htmlFor='mail-input'>Quer ficar por dentro de todas as nossas promoções? Cadastre-se abaixo:</label>
                 <form onSubmit={(e) => formSubmit(e)}>
                     <input
                         onChange={(e) => setName(e.target.value)}
                         name='name'
                         type='text'
-                        className='mail-input section-item-item-separator'
-                        placeholder='Insira aqui o seu melhor email'
+                        className='mail-input section-break-separator'
+                        placeholder='Insira aqui o seu nome'
                         required
                         value={name}
                     />
@@ -41,12 +41,12 @@ function Footer() {
                         onChange={(e) => setEmail(e.target.value)}
                         name='email'
                         type="email"
-                        className='mail-input section-item-item-separator'
+                        className='mail-input special-separator'
                         placeholder='Insira aqui o seu melhor email'
                         required
                         value={email}
                     />
-                    <button type='submit' >Inscreva-se</button>
+                    <button type='submit' className='special-separator' >Inscreva-se</button>
                 </form>
             </div>
             <div className="bulleted-section-list section-break-separator">
