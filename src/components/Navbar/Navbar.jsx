@@ -12,7 +12,7 @@ function Navbar() {
 
     return (
         <nav className='nav-container'>
-            <a href="#"><img src={logoImg} alt="Logo" className="logo-img" /></a>
+            <a href="/"><img src={logoImg} alt="Logo" className="logo-img" /></a>
             <div className="menu-icon" onClick={handleMenuIconClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>

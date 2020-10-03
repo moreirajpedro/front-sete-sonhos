@@ -94,6 +94,8 @@
         align-items: center;
         background-image: url(../../assets/images/bed5.JPG);
         background-position: initial;
+        height: 90vh;
+        max-height: 90%;
     }
 
     .secondary-text, .primary-text {
