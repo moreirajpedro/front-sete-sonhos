@@ -27,7 +27,7 @@ function Footer() {
         <footer id='footer-section' className='section-separator'>
             <div className="mail-list-register">
                 <label className='mail-input-label' htmlFor='mail-input'>Quer ficar por dentro de todas as nossas promoções? Cadastre-se abaixo:</label>
-                <form onSubmit={(e) => formSubmit(e)}>
+                <form onSubmit={(e) => formSubmit(e)} id='newsletter-register'>
                     <input
                         onChange={(e) => setName(e.target.value)}
                         name='name'
@@ -55,12 +55,12 @@ function Footer() {
                 <a href="#testemonials-section">Testemunho dos clientes</a>
             </div>
             <div className="social-container section-break-separator">
-                <a href="https://www.instagram.com/setesonhos.com.br/"  target="_blank">
+                <a href="https://www.instagram.com/setesonhos.com.br/" target="_blank">
                     <i class="fab fa-instagram" />
                 </a>
-                <a href="">
+                {/* <a href="">
                     <i class="fab fa-facebook" />
-                </a>
+                </a> */}
                 <a href="https://www.linkedin.com/company/sete-sonhos" target="_blank">
                     <i class="fab fa-linkedin-in" />
                 </a>

@@ -22,6 +22,9 @@ function Navbar() {
                         <a href="#about-us-section" onClick={handleMenuItemClick}>Sobre nós</a>
                     </li>
                     <li className='nav-item'>
+                        <a href="#newsletter-register" onClick={handleMenuItemClick}>Promoções</a>
+                    </li>
+                    <li className='nav-item'>
                         <a href="#beds-section" onClick={handleMenuItemClick}>Conferir camas</a>
                     </li>
                     <li className='nav-item'>

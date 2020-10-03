@@ -85,18 +85,22 @@
 
 .social-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-container > a {
     width: fit-content;
     height: fit-content;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .social-container > a > i {
     font-size: 3rem;
     color: var(--box-background);
+}
+
+.fa-instagram {
+    margin-right: 2rem;
 }
 
 #footer-section > small {
