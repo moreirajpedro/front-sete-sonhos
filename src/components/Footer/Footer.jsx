@@ -52,7 +52,7 @@ function Footer() {
             <div className="bulleted-section-list section-break-separator">
                 <a href='#about-us-section'>Sobre nós</a>
                 <a href="#beds-section">Conferir camas</a>
-                <a href="#testemonials-section">Testemunho dos clientes</a>
+                {/* <a href="#testemonials-section">Testemunho dos clientes</a> */}
             </div>
             <div className="social-container section-break-separator">
                 <a href="https://www.instagram.com/setesonhos.com.br/" target="_blank">

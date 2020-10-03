@@ -27,9 +27,9 @@ function Navbar() {
                     <li className='nav-item'>
                         <a href="#beds-section" onClick={handleMenuItemClick}>Conferir camas</a>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <a href="#testemonials-section" onClick={handleMenuItemClick}>Testemunho dos clientes</a>
-                    </li>
+                    </li> */}
                     <a href="https://api.whatsapp.com/send?phone=558598309819&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20colch%C3%B5es%20da%20Sete%20Sonhos." target="_blank" className="button-navbar" onClick={handleMenuItemClick}>Faça seu pedido</a>
                 </ul>}
         </nav>
