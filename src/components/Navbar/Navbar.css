@@ -1,6 +1,6 @@
 .nav-container {
     width: 100vw;
-    height: 4.5rem;
+    height: 7rem;
     background-color: var(--text);
     display: flex;
     align-items: center;
@@ -10,12 +10,12 @@
 }
 
 .logo-img {
-    max-width: 5rem;
+    max-width: 7rem;
 }
 
 .menu-icon {
-    font-size: 1.9rem;
-    margin-right: 1rem;
+    font-size: 3.4rem;
+    margin-right: 1.4rem;
 }
 
 .nav-menu-active {
@@ -26,7 +26,7 @@
     padding: 1rem;
     position: absolute;
     width: 100%;
-    top: 4.2rem;
+    top: 7rem;
     background: var(--text);
     left: 0;
     border-radius: 0 0 2.4rem 2.4rem;
