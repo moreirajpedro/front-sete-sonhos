@@ -53,6 +53,12 @@
     margin-bottom: 0.5rem;
     color: var(--text);
     font-size: 1.4rem;
+    text-align: center;
+}
+
+.button-navbar:hover {
+    color: var(--text);
+    text-decoration: none;
 }
 
 .fa-bars, .fa-times {

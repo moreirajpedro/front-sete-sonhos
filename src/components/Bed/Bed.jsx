@@ -18,14 +18,14 @@ function Bed({ bedCode, separator }) {
     const [modal, setModal] = useState(false);
 
     const IMAGES = [
-        venezza, 
-        elegance, 
-        harmony, 
+        venezza,
+        elegance,
+        harmony,
         romance2,
-        vienna, 
+        vienna,
         celebration
     ]
-    
+
     const { model, modelData, typePrices, description } = BedData[bedCode]
 
     const typePricesData = Object.entries(typePrices);
@@ -38,11 +38,11 @@ function Bed({ bedCode, separator }) {
             <div className={`bed-container ${separator}`}>
                 <div className="bed-title-container">
                     <h1>{model}</h1>
-                    <button type='button'>Fazer o pedido</button>
+                    <a href={`https://api.whatsapp.com/send?phone=558598309819&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20comprar%20o%20colch%C3%A3o%20do%20${model}.`} target='_blank'>Fazer o pedido</a>
                 </div>
 
                 <p className="bed-description">
-                    {description ? description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+                    {description}
                 </p>
                 <figure className='bed-image section-item-item-separator'>
                     <Button
@@ -68,14 +68,14 @@ function Bed({ bedCode, separator }) {
                             {modelData.map(data => <li>{data}</li>)}
                         </div>
                         <h2 className='section-title section-item-item-separator'>Valores:</h2>
-                            {typePricesData.map((data) => 
-                                <div className="bed-size-wrapper">
-                                    <h3>{data[0]}: {bedSizeData.map(sizeInfo => data[0] == sizeInfo[0] ? sizeInfo[1] : null)}</h3>
-                                    <h4>À Vista: <strong>R${data[1][0]}</strong></h4>
-                                    <h4>Parcelado: <strong>R${data[1][1]}</strong></h4>
-                                    <a href="" className='orderButton'>Faça seu pedido</a>
-                                </div>
-                            )}
+                        {typePricesData.map((data) =>
+                            <div className="bed-size-wrapper">
+                                <h3>{data[0]}: {bedSizeData.map(sizeInfo => data[0] == sizeInfo[0] ? sizeInfo[1] : null)}</h3>
+                                <h4>À Vista: <strong>R${data[1][0]}</strong></h4>
+                                <h4>Parcelado: <strong>R${data[1][1]}</strong></h4>
+                                <a href={`https://api.whatsapp.com/send?phone=558598309819&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20comprar%20o%20colch%C3%A3o%20do%20${model},%20tamanho%20${data[0]}.`} target='_blank' className='orderButton'>Fazer o pedido</a>
+                            </div>
+                        )}
                     </div>
                 </ModalBody>
             </Modal>

@@ -23,7 +23,7 @@ function AboutUs() {
                 />
                 <AboutUsBulletedList
                     title='Conforto'
-                    description='Em até 2 (dois) dias úteis você recebe o seu colchão no conforto da sua casa.'
+                    description='Em até 2 (dois) dias úteis, se tiver estoque, você recebe o seu colchão no conforto da sua casa.'
                     separator='section-item-item-separator'
                 />
             </div>

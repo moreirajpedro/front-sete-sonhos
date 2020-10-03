@@ -19,7 +19,7 @@
 
 }
 
-.header-container > button {
+.header-container > .orderButton {
     background-color: var(--background-color);
     border: none;
     border-radius: 3.6rem;
@@ -28,7 +28,13 @@
     margin-top: 0.8rem;
     margin-bottom: 0.5rem;
     color: var(--text);
-    font-size: 1.4rem;    
+    font-size: 1.4rem; 
+    font-weight: 500;   
+}
+
+.header-container > .orderButton:hover {
+    color: var(--text);
+    text-decoration: none;   
 }
 
 .secondary-text, .primary-text {
@@ -100,7 +106,7 @@
         margin-bottom: 1.5rem;
     }
 
-    .header-container > button {
+    .header-container > .orderButton {
         background-color: var(--box-background);
         border: none;
         border-radius: 3.6rem;
@@ -110,6 +116,12 @@
         margin-bottom: 0.5rem;
         color: var(--background-color);
         font-size: 1.4rem;    
+    }
+
+    .header-container > .orderButton:hover {
+        color: var(--background-color);
+        font-size: 1.4rem;    
+        text-decoration: none;   
     }
 
     .important-text {
