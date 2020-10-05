@@ -38,7 +38,7 @@ function Bed({ bedCode, separator }) {
             <div className={`bed-container ${separator}`}>
                 <div className="bed-title-container">
                     <h1>{model}</h1>
-                    <button type='button'>Fazer o pedido</button>
+                    <a href={`https://api.whatsapp.com/send?phone=558599467617&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20comprar%20o%20colch%C3%A3o%20do%20${model}.`} target='_blank' className='orderButton'>Faça seu pedido</a>
                 </div>
 
                 <p className="bed-description">
