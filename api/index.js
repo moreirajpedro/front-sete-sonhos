@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
     request
         .post('https://' + instance + '.api.mailchimp.com/3.0/lists/' + list_id + '/members/')
         .set('Content-Type', 'application/json;charset=utf-8')
-        .set('Authorization', 'Basic ' + Buffer.from('anystring:' + api_key).toString('base64'))
+        .set('Authorization', 'Basic ' + Buffer.from('anystring:', 'a9818fa8cc028a010121dd64294b8bfc-us2'=api_key).toString('base64'))
         .send({
             'email_address': req.body[0],
             'status': 'subscribed',
