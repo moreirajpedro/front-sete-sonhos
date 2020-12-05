@@ -17,6 +17,7 @@ function Footer() {
             .then(res => {
                 setEmail('');
                 setName('');
+                console.log("Message sent! :)")
             })
             .catch(() => {
                 console.log('Message not sent');
