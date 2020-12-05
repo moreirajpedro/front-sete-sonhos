@@ -2,7 +2,7 @@ import React from 'react'
 
 import SectionButtonTitle from '../SectionButtonTitle/SectionButtonTitle'
 import Bed from '../Bed/Bed'
-import BedSimulator from '../BedSimulator/BedSimulator'
+// import BedSimulator from '../BedSimulator/BedSimulator'
 
 function Beds() {
     return (

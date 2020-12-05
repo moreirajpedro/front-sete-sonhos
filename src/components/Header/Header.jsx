@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
-import bed1 from '../../assets/images/bed1.JPG';
-import bed2 from '../../assets/images/bed2.JPG';
-import bed3 from '../../assets/images/bed3.JPG';
-import bed4 from '../../assets/images/bed4.JPG';
-import bed5 from '../../assets/images/bed5.JPG';
-import headerVideo from '../../assets/images/header-video.mp4';
+// import bed1 from '../../assets/images/bed1.JPG';
+// import bed2 from '../../assets/images/bed2.JPG';
+// import bed3 from '../../assets/images/bed3.JPG';
+// import bed4 from '../../assets/images/bed4.JPG';
+// import bed5 from '../../assets/images/bed5.JPG';
+// import headerVideo from '../../assets/images/header-video.mp4';
 
 import './Header.css';
 

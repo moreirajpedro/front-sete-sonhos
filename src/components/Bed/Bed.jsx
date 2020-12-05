@@ -22,8 +22,8 @@ function Bed({ bedCode, separator }) {
         elegance, 
         harmony, 
         romance2,
-        vienna, 
-        celebration
+        celebration,
+        vienna
     ]
     
     const { model, modelData, typePrices, description } = BedData[bedCode]
@@ -70,7 +70,7 @@ function Bed({ bedCode, separator }) {
                         <h2 className='section-title section-item-item-separator'>Valores:</h2>
                             {typePricesData.map((data) => 
                                 <div className="bed-size-wrapper">
-                                    <h3>{data[0]}: {bedSizeData.map(sizeInfo => data[0] == sizeInfo[0] ? sizeInfo[1] : null)}</h3>
+                                    <h3>{data[0]}: {bedSizeData.map(sizeInfo => data[0] === sizeInfo[0] ? sizeInfo[1] : null)}</h3>
                                     <h4>À Vista: <strong><span>R${data[1][0]}</span></strong></h4>
                                     <h4>Parcelado: <strong>Até 12x de <span>R${data[1][1]}</span></strong></h4>
                                     <a href={`https://api.whatsapp.com/send?phone=558599467617&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20comprar%20o%20colch%C3%A3o%20do%20${model},%20tamanho%20${data[0]}.`} target='_blank' className='orderButton'>Faça seu pedido</a>
