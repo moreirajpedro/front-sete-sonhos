@@ -20,7 +20,8 @@ function Footer() {
                 setEmail('');
                 setName('');
             })
-            .catch(() => {
+            .catch((e) => {
+                console.log(e);
                 console.log('Message not sent');
             })
     }

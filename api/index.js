@@ -1,19 +1,18 @@
 var request = require('superagent');
 
-const dotenv = require('dotenv');
-dotenv.config();
+const dotenv = require('dotenv').config();
 
 module.exports = async (req, res) => {
-    const list_id = '8430c1bb94';
-    const API_KEY = process.env.REACT_APP_API_KEY;
+    const listId = '8430c1bb94';
+    const apiKey = process.env.REACT_APP_API_KEY;
     const instance = 'us2';
 
     console.log(req.body)
 
     request
-        .post('https://' + instance + '.api.mailchimp.com/3.0/lists/' + list_id + '/members/')
+        .post('https://' + instance + '.api.mailchimp.com/3.0/lists/' + listId + '/members/')
         .set('Content-Type', 'application/json;charset=utf-8')
-        .set('Authorization', 'Basic ' + Buffer.from('anystring:', API_KEY).toString('base64'))
+        .set('Authorization', 'Basic ' + Buffer.from('anystring:', apiKey).toString('base64'))
         .send({
             'email_address': req.body[0],
             'status': 'subscribed',

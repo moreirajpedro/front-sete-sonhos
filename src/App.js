@@ -2,9 +2,8 @@ import React from 'react';
 
 import Landing from './pages/Landing';
 
-import './assets/styles/Global.css';
-const dotenv = require('dotenv');
-dotenv.config();
+import './assets/styles/Global.css'; 
+
 function App() {
   return (
     <>
