@@ -1,3 +1,5 @@
+const dotenv = require('dotenv').config();
+
 import React from 'react';
 
 import Landing from './pages/Landing';
