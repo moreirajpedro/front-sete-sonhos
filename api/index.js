@@ -1,3 +1,5 @@
+const dotenv = require('dotenv').config();
+
 var request = require('superagent');
 
 module.exports = async (req, res) => {
