@@ -1,10 +1,10 @@
-const dotenv = require('dotenv').config();
-
 import React from 'react';
 
 import Landing from './pages/Landing';
 
 import './assets/styles/Global.css';
+
+const dotenv = require('dotenv').config();
 
 function App() {
   return (
