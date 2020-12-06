@@ -15,7 +15,7 @@ function Footer() {
 
         let data = [email, name];
 
-        axios.post('https://setesonhoslandingpage.vercel.app/api/', data)
+        axios.post('https://setesonhos.com.br/api/', data)
             .then(res => {
                 setEmail('');
                 setName('');
