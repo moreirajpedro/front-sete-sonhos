@@ -1,6 +1,7 @@
 var request = require('superagent');
 
-const dotenv = require('dotenv').config();
+const dotenv = require('dotenv');
+dotenv.config();
 
 module.exports = async (req, res) => {
     const list_id = '8430c1bb94';

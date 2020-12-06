@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-
 import './Footer.css';
+
+const dotenv = require('dotenv');
+dotenv.config();
 
 function Footer() {
     const [email, setEmail] = useState('')
@@ -13,11 +15,10 @@ function Footer() {
 
         let data = [email, name];
 
-        axios.post('https://setesonhos.com.br/api/', data)
+        axios.post('https://setesonhoslandingpage.vercel.app/api/', data)
             .then(res => {
                 setEmail('');
                 setName('');
-                console.log("Message sent! :)")
             })
             .catch(() => {
                 console.log('Message not sent');
