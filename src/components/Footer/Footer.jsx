@@ -15,7 +15,7 @@ function Footer() {
 
         let data = [email, name];
 
-        axios.post('https://setesonhos.com.br/api/', data)
+        axios.post('http://localhost:3000/api/', data)
             .then(res => {
                 setEmail('');
                 setName('');
