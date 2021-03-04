@@ -59,13 +59,13 @@ function Footer() {
             </div>
             <div className="social-container section-break-separator">
                 <a href="https://www.instagram.com/setesonhos.com.br/" target="_blank">
-                    <i class="fab fa-instagram" />
+                    <i className="fab fa-instagram" />
                 </a>
                 {/* <a href="">
                     <i class="fab fa-facebook" />
                 </a> */}
                 <a href="https://www.linkedin.com/company/sete-sonhos" target="_blank">
-                    <i class="fab fa-linkedin-in" />
+                    <i className="fab fa-linkedin-in" />
                 </a>
             </div>
             <small>

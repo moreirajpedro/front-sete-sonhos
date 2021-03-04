@@ -6,7 +6,7 @@ function AboutUsBulletedList({ title, description, separator }) {
     return (
         <div className={`bulleted-item-container ${separator}`}>
             <div className="check-container">
-                <i class="fas fa-check" />
+                <i className="fas fa-check" />
             </div>
             <div className="item-text-wrapper">
                 <h1 className="item-title">

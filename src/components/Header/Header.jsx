@@ -20,7 +20,7 @@ function Header() {
                 <img src={bed} className='image-carousel' alt="Cama Eurosono" />
             </figure> */}
             <a href="#about-us-section" className='scroll-down-button'>
-                <i class="fas fa-chevron-down" />
+                <i className="fas fa-chevron-down" />
             </a>
         </header>
     )

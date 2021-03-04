@@ -15,16 +15,16 @@ export const BedData = [
         ],
         'typePrices': {
             'Casal Padrão': [
-                '1.839,08',
-                '183,91'
+                '2.206,89',
+                '199,24'
             ],
             'Queen': [
-                '2.237,02',
-                '223,70'
+                '2.684,42',
+                '242,35'
             ],
             'King': [
-                '2.700,16',
-                '270,11'
+                '3.240,19',
+                '292,52'
             ]
         },
         'description': 'Colchão com camada de EUROTOP de 32cm. Possui tecido Tampo Bordado em malha e espuma de visco elástico, trazendo para você o maior conforto. Ideal para quem busca uma cama macia.',
@@ -44,20 +44,20 @@ export const BedData = [
         ],
         'typePrices': {
             'Solteiro': [
-                '947,72',
-                '94,78',
+                '1.137,30',
+                '102,68',
             ],
             'Solteirao': [
-                '1.283,92',
-                '128,34',
+                '1.540,00',
+                '139,10',
             ],
             'Casal Padrão': [
-                '1.357,85',
-                '135,79'  
+                '1.629,40',
+                '147,10'  
             ],
             'Queen': [
-                '1.708,60',
-                '170,86'
+                '2050,30',
+                '185,10'
             ]
         },
         'description': 'Colchão com camada de EUROTOP, deixando assim a cama mais firme. Molejo ensacado 180 mola m2, custo e qualidade muito acessível.',
@@ -77,20 +77,20 @@ export const BedData = [
         ],
         'typePrices': {
             'Solteirao': [
-                '1.367,30',
-                '136,73'
+                '1.640,75',
+                '148,13'
             ],
             'Casal Padrão': [
-                '1.491,20',
-                '149,13'
+                '1.789,45',
+                '161,55'
             ],
             'Queen': [
-                '1.839,62',
-                '183,97'
+                '2.207,55',
+                '199,30'
             ],
             'King': [
-                '2.227,80',
-                '222,78'
+                '2.673,30',
+                '241,38'
             ]
         },
         'description': 'Colchão com camada de Pillow Touch, uma camada maior de conforto. Possui molas ensacadas com capacidade de suportar 120 kg/m2 ideal para quem busca um colchão macio.',
@@ -110,16 +110,16 @@ export const BedData = [
         ],
         'typePrices': {
             'Casal Padrão': [
-                '1.807,26',
-                '180,73'  
+                '2.168,71',
+                '195,79'  
             ],
             'Queen': [
-                '2.222,80',
-                '222,28'  
+                '2.667,36',
+                '240,81'  
             ],
             'King': [
-                '2.655,48',
-                '265,55'
+                '3.186,51',
+                '287,68'
             ]
         },
         'description': 'Colchão com camada de EUROTOP de 33cm, molejo ensacado 180 molas, suporte de 120 kg/m2, colchão ideal para quem busca um conjunto mais firme.',
@@ -140,16 +140,16 @@ export const BedData = [
         ],
         'typePrices': {
             'Casal Padrão': [
-                '1.809,48',
-                '181,45'
+                '2.177,37',
+                '196,03'
             ],
             'Queen': [
-                '2.205,96',
-                '220,60'
+                '2.647,15',
+                '238,98'
             ],
             'King': [
                 '2.658,22',
-                '221,52'
+                '288,00'
             ]
         },
         'description': 'Colchão com camada de EUROTOP de 32cm. Possui tecido Tampo Bordado em malha e Espuma Soft D - 20 kg/m3. Ideal para quem busca uma cama macia.',
@@ -169,20 +169,20 @@ export const BedData = [
         ],
         'typePrices': {
             'Solteirao': [
-                '1.465,16',
-                '146,52'
+                '1.758,19',
+                '158,73'
             ],
             'Casal Padrão': [
-                '1.587,64',
-                '158,77'
+                '1.905,16',
+                '172,00'
             ],
             'Queen': [
-                '1.933,88',
-                '193,39'
+                '2.320,65',
+                '209,51'
             ],
             'King': [
-                '2.414,0',
-                '241,40'
+                '2.896,80',
+                '261,52'
             ]
         },
         'description': 'Colchão com camada de EUROTOP de 28cm, suporta 120 kg/m2. Ideal para quem busca uma cama mais firme com um melhor custo benefício.',
